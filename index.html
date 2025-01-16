@@ -18,11 +18,13 @@ body {
 <h2>Signup Page</h2>
 <form>
   <label for="fname">First name:</label>
-  <input type="text" value="Enter your first name"><br><br>
+  <input type="text" placeholder="Enter your first name" required><br><br>
   <label for="lname">Last name:</label>
-  <input type="text" value="Enter your last name"><br><br>
+  <input type="text" placeholder="Enter your last name" required><br><br>
   <label for="mail">Email:</label>
-  <input type="email" value="Enter the email"><br><br>
+  <input type="email" placeholder="Enter the email" required><br><br>
+<label for="password">Password:</label>
+        <input type="password" placeholder="Enter your password" required><br><br>
   <label for="gender">Gender:</label><br>
   <input type="radio" value="Male">
   <label for="male">Male</label><br>
@@ -42,7 +44,7 @@ body {
   <input type="tel" id="phone" name="phone" placeholder="9876543210" pattern="[6-9]{1}[0-9]{9}" required><br><br>
 
   <label for="dob">Date of Birth:</label>
-  <input type="date" id="dob" name="dob" required><br><br>
+  <input type="date"  required><br><br>
 <label for="interests">Choose your interests:</label><br>
   <input type="checkbox" id="coding" name="interests" value="coding">
   <label for="coding">Coding</label><br>
